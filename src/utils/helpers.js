@@ -1,4 +1,4 @@
-import url from "./URL";
+
 
 // flatten 
 //get the data from the fetch call
