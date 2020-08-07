@@ -1,0 +1,5 @@
+[submodule "my-project"]
+    path = my-project
+    url = https://github.com/fjkiani/himalayan-salt-shop.git
+[submodule "bar1"]
+	branch = master
