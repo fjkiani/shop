@@ -4,9 +4,13 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 import img from "../../assets/HeroImage.jpg";
 export default function Product({ image, title, id, price }) {
+  // let num = id;
+  // let integer = parseInt(num,10)
+  console.log(id);
   return (
     <article className="product">
       <div className="img-container">
+  
         <img src={image || img} alt={title || "default title"} />
         <Link to={`products/${id}`} className="btn btn-primary product-link">
           details
@@ -23,5 +27,5 @@ Product.propTypes = {
   image: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   price: PropTypes.number.isRequired,
-  id: PropTypes.number.isRequired
+  id: PropTypes.string.isRequired
 };
