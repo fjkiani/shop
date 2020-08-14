@@ -5,11 +5,11 @@
 export function flattenProducts(data) {
   return data.map(item => {
     // cloudinary
-    let image = (item.image && item.image.url) || null;
+    // let image = (item.image && item.image.url) || null;
 
     // local setup no deployment
     // let image = `${url}${item.image.url}`;
-    return { ...item, image };
+    return { ...item, image: item.image.url };
   });
 }
 

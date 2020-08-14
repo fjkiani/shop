@@ -28,6 +28,9 @@
     },
     "price": {
       "type": "decimal"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }

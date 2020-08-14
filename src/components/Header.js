@@ -11,7 +11,8 @@ export default function Header() {
       <nav>
         <ul>
           <div>
-          <img src={logo} alt="vintage tech logo" className="logo" />
+            <Link to ="/">
+          <img src={logo} alt="vintage tech logo" className="logo" /></Link>
             <li>
               <Link to="/">Home</Link>
             </li>
