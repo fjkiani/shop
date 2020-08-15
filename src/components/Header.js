@@ -8,11 +8,11 @@ export default function Header() {
   const { user } = React.useContext(UserContext);
   return (
     <header className="header">
+    <Link to ="/">
+          <img src={logo} alt="Namak logo" className="logo" /></Link>
       <nav>
         <ul>
           <div>
-            <Link to ="/">
-          <img src={logo} alt="Namak logo" className="logo" /></Link>
             <li>
               <Link to="/">Home</Link>
             </li>

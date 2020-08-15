@@ -15,7 +15,7 @@ export default function Footer() {
               <div className="row">
                 <div className="col-md-6 paragraph">
                   <p className="text-capitalize">
-                    copyright &copy; Namak {new Date().getFullYear()}. Open Source Project. Share The Knowledge {" "}
+                    Copyright &copy; Free Namak {new Date().getFullYear()}. Open Source Project. Share The Knowledge {" "}
                   </p>
                 </div>
               </div>
