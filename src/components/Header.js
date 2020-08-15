@@ -12,7 +12,7 @@ export default function Header() {
         <ul>
           <div>
             <Link to ="/">
-          <img src={logo} alt="vintage tech logo" className="logo" /></Link>
+          <img src={logo} alt="Namak logo" className="logo" /></Link>
             <li>
               <Link to="/">Home</Link>
             </li>

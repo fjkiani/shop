@@ -784,5 +784,8 @@ Filters Section
 .saltLamps {
   text-align:center;
   text-transform: capitalize;
+}
 
+.content {
+  text-align: center;
 }

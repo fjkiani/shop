@@ -13,6 +13,7 @@ import Products from "./pages/Products";
 import ProductDetails from "./pages/ProductDetails";
 // components
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Alert from "./components/Alert";
 import PrivateRoute from "./components/PrivateRoute";
 import ScrollButton from "./components/ScrollButton";
@@ -50,6 +51,8 @@ export default function App() {
           <Error />
         </Route>
       </Switch>
+      
+      <Footer/>
     </Router>
   );
 }
