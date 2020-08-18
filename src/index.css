@@ -141,7 +141,7 @@ Header
 ======
 */
 .header {
-  padding: 6rem 0;
+  padding: 2rem 0;
   background-color: white;
 }
 .logo {
@@ -182,7 +182,7 @@ Hero
 ======
 */
 .hero {
-  min-height: calc(65vh);
+  min-height: calc(80vh);
   background: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.7) 0%,

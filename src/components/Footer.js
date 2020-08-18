@@ -1,5 +1,9 @@
 import React from "react";
 import styled from "styled-components";
+import { FiInstagram } from "react-icons/fi";
+
+
+
 // import {
 //     faYoutube,
 //     faFacebook,
@@ -12,11 +16,12 @@ export default function Footer() {
   return (
           <FooterWrapper>
             <div className="container py-3">
-              <div className="row">
-                <div className="col-md-6 paragraph">
+              <div className="row footer">
+                <div className="col-md-6 paragraph social-container">
                   <p className="text-capitalize">
-                    Copyright &copy; Free Namak {new Date().getFullYear()}. Open Source Project. Share The Knowledge {" "}
+                    Copyright &copy; Free Namak {new Date().getFullYear()}. Open Source Project.{" "}
                   </p>
+                  <a href ="https://www.instagram.com/namakislife" target = "_blank" rel="noopener noreferrer"><FiInstagram/></a>
                 </div>
               </div>
             </div>
@@ -40,5 +45,16 @@ const FooterWrapper = styled.footer`
   }
    .paragraph {
        text-align: center;
+   }
+   .footer {
+    padding: 5em;
+    color: aliceblue;
+    background-color: black;
+    }
+
+   .footer a {
+     color: red;
+   }
+
    }
 `;

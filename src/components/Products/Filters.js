@@ -35,9 +35,9 @@ export default function Filters() {
               onChange={updateFilters}
             >
               <option value="all">all</option>
-              <option value="phone">phone</option>
-              <option value="computer">computer</option>
-              <option value="radio">radio</option>
+              <option value="lamp">lamps</option>
+              <option value="plate">plate</option>
+              <option value="salt">salt</option>
             </select>
           </div>
           {/* end of category */}
