@@ -21,7 +21,7 @@ export default function Footer() {
                   <p className="text-capitalize">
                     Copyright &copy; Free Namak {new Date().getFullYear()}. Open Source Project.{" "}
                   </p>
-                  <a href ="https://www.instagram.com/namakislife" target = "_blank" rel="noopener noreferrer"><FiInstagram/></a>
+                  <a href ="https://www.instagram.com/himalayansaltlife" target = "_blank" rel="noopener noreferrer"><FiInstagram/></a>
                 </div>
               </div>
             </div>
@@ -45,10 +45,10 @@ const FooterWrapper = styled.footer`
   }
    .paragraph {
        text-align: center;
+       color: red;
    }
    .footer {
     padding: 5em;
-    color: aliceblue;
     background-color: black;
     }
 
