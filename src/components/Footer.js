@@ -32,11 +32,11 @@ export default function Footer() {
 }
 
 const FooterWrapper = styled.footer`
-  background: var(--darkGrey);
-  color: var(--mainWhite);
+  // background: var(--darkGrey);
+  color: red;
   .icon {
     font-size: 1.5rem;
-    color: var(--mainWhite);
+    color: red;
     transition: var(--mainTranstion);
   }
   .icon:hover {
@@ -49,7 +49,7 @@ const FooterWrapper = styled.footer`
    }
    .footer {
     padding: 5em;
-    background-color: black;
+    // background-color: black;
     color:red!important;
     }
 
