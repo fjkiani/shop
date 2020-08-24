@@ -45,11 +45,12 @@ const FooterWrapper = styled.footer`
   }
    .paragraph {
        text-align: center;
-       color: red;
+
    }
    .footer {
     padding: 5em;
     background-color: black;
+    color:red!important;
     }
 
    .footer a {
