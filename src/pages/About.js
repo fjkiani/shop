@@ -6,7 +6,7 @@ export default function About() {
       <h1 className="section-title">About</h1>
 
       <p>
-       Hello! Thank you for visiting Namak! The definition of Namak is Salt in Urdu and Hindi. Salt is essential for life, especially Himalayan Salt. Our mission is to share the essential benefits of Himalayan Salt with everyone. We believe our products can help you find joy and rejuvenate your life. They are meant to provide you with health benfits, boost your workplace and drive productivity. Himalayan Salt products are backed by historic and longevity facts</p>
+       Hello! Thank you for visiting Namak! The definition of Namak is Salt in Urdu. Salt is essential for life, especially Himalayan Salt. Our mission is to share the essential benefits of Himalayan Salt with everyone. We believe our products can help you find joy and rejuvenate your life. They are meant to provide you with health benfits, boost your workplace and drive productivity. Himalayan Salt products are backed by historic and longevity facts</p>
       
       <hr/>
 

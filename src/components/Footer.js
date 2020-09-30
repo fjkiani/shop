@@ -33,16 +33,7 @@ export default function Footer() {
 
 const FooterWrapper = styled.footer`
   // background: var(--darkGrey);
-  color: red;
-  .icon {
-    font-size: 1.5rem;
-    color: red;
-    transition: var(--mainTranstion);
-  }
-  .icon:hover {
-    color: var(--primaryColor);
-    cursor: pointer;
-  }
+   color: red;
    .paragraph {
        text-align: center;
 
